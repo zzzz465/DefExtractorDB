@@ -18,8 +18,7 @@
             ],
             "NodeStringReplaceXpaths" :
             {
-                "[\\w]+Def" : "./defName",
-                "li" : "./label"
+                "[\\w]+Def" : "./defName"
             }
         },
         "li_description" :
@@ -31,8 +30,7 @@
             ],
             "NodeStringReplaceXpaths" :
             {
-                "[\\w]+Def" : "./defName",
-                "li" : "./description"
+                "[\\w]+Def" : "./defName"
             }
         },
         "Label" :
@@ -58,7 +56,7 @@
             "Xpath" : "//마지막노드이름",
             "AdditionalNodes" :
             [
-                "마지막 노드 뒤에 추가적으로 노드를 붙이고 싶을 때,"
+                "마지막 노드 뒤에 추가적으로 노드를 붙이고 싶을 때"
             ],
             "NodeStringReplaceXpaths" :
             {
