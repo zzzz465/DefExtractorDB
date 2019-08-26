@@ -11,10 +11,10 @@
         },
         "li_label" :
         {
-            "Xpath" : "//li[label]",
+            "Xpath" : "//li/label",
             "AdditionalNodes" :
             [
-                "./label"
+
             ],
             "NodeStringReplaceXpaths" :
             {
@@ -23,10 +23,10 @@
         },
         "li_description" :
         {
-            "Xpath" : "//li[description]",
+            "Xpath" : "//li/description",
             "AdditionalNodes" :
             [
-                "./description"
+                
             ],
             "NodeStringReplaceXpaths" :
             {
