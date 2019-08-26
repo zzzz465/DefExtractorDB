@@ -1,0 +1,48 @@
+{
+    "targetNodes" :
+    {
+        "Label" :
+        {
+            "Xpath" : "//label",
+            "NodeStringReplaceXpaths" :
+            {
+                "[a-zA-Z0-9]+Def" : "./defName",
+                "li" : "$_Count"
+            }
+        },
+
+        "Description" :
+        {
+            "Xpath" : "//description",
+            "NodeStringReplaceXpaths" :
+            {
+                "[a-zA-Z0-9]+Def" : "./defName",
+                "li" : "$_Count"
+            }
+        },
+        "pawnsPlural" :
+        {
+            "Xpath" : "//pawnsPlural",
+            "NodeStringReplaceXpaths" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "li" :
+        {
+            "Xpath" : "//li",
+            "NodeStringReplaceXpaths" :
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "Example" :
+        {
+            "Xpath" : "//NodeName",
+            "NodeStringReplaceXpaths" :
+            {
+                "[\\w]+Def" : "./defName (should implement this)"
+            }
+        }
+    }
+}
