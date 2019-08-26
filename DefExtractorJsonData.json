@@ -50,19 +50,6 @@
                 "[a-zA-Z0-9]+Def" : "./defName",
                 "li" : "$_Count"
             }
-        },
-        "마지막노드이름" :
-        {
-            "Xpath" : "//마지막노드이름",
-            "AdditionalNodes" :
-            [
-                "마지막 노드 뒤에 추가적으로 노드를 붙이고 싶을 때"
-            ],
-            "NodeStringReplaceXpaths" :
-            {
-                "[\\w]+Def" : "./defName",
-                "매칭 정규식을 여기에" : "정규식에 해당하는 노드에서부터 선택할 Xpath을 설정"
-            }
         }
     }
 }
