@@ -6,12 +6,22 @@
             "Xpath" : "//li/label",
             "NodeStringReplaceXpaths" :
             {
-                "[\\w]+Def" : "./defName"
+                "[\\w]+Def" : "./defName",
+                "li" : "$_Count"
             }
         },
         "li_description" :
         {
             "Xpath" : "//li/description",
+            "NodeStringReplaceXpaths" :
+            {
+                "[\\w]+Def" : "./defName",
+                "li" : "$_Count"
+            }
+        },
+        "li_customLabel" :
+        {
+            "Xpath" : "//li/customLabel",
             "NodeStringReplaceXpaths" :
             {
                 "[\\w]+Def" : "./defName",
@@ -26,13 +36,61 @@
                 "[\\w]+Def" : "./defName"
             }
         },
-        "customLabel" :
+        "JobString" : 
         {
-            "Xpath" : "//li/customLabel",
-            "NodeStringReplaceXpaths" :
+            "Xpath" : "//jobString",
+            "NodeStringReplaceXpaths" : 
             {
-                "[\\w]+Def" : "./defName",
-                "li" : "$_Count"
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "inactiveAdjective" :
+        {
+            "Xpath" : "//inactiveAdjective",
+            "NodeStringReplaceXpaths" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "inclusiveAdjective" :
+        {
+            "Xpath" : "//inclusiveAdjective",
+            "NodeStringReplaceXpaths" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "exclusiveAdjective" :
+        {
+            "Xpath" : "//exclusiveAdjective",
+            "NodeStringReplaceXpaths" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "helpText" : 
+        {
+            "Xpath" : "//helpText",
+            "NodeStringReplaceXpaths" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+
+        "reportString" : 
+        {
+            "Xpath" : "//reportString",
+            "NodeStringReplaceXpaths" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "headerTip" : 
+        {
+            "Xpath" : "//headerTip",
+            "NodeStringReplaceXpaths" : 
+            {
+                "[\\w]+Def" : "./defName"
             }
         },
         "Label" :
@@ -42,6 +100,14 @@
             {
                 "[a-zA-Z0-9]+Def" : "./defName",
                 "li" : "$_Count"
+            }
+        },
+        "customLabel" :
+        {
+            "Xpath" : "//customLabel",
+            "NodeStringReplaceXpaths" : 
+            {
+                "[\\w]+Def" : "./defName"
             }
         },
         "endMessage" :
