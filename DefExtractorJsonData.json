@@ -51,6 +51,18 @@
                 "li" : "$_Count"
             }
         },
+        "titles" :
+        {
+            "Xpath" : "//titles"
+        },
+        "domains" :
+        {
+            "Xpath" : "//domains"
+        },
+        "descriptionLong" :
+        {
+            "Xpath" : "//descriptionLong"
+        },
         "마지막노드이름" :
         {
             "Xpath" : "//마지막노드이름",
