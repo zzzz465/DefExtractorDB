@@ -1,14 +1,6 @@
 {
     "targetNodes" :
     {
-        "pawnsPlural" :
-        {
-            "Xpath" : "//pawnsPlural",
-            "NodeStringReplaceXpaths" : 
-            {
-                "[\\w]+Def" : "./defName"
-            }
-        },
         "li_label" :
         {
             "Xpath" : "//li/label",
@@ -22,6 +14,15 @@
             "Xpath" : "//li/description",
             "NodeStringReplaceXpaths" :
             {
+                "[\\w]+Def" : "./defName",
+                "li" : "$_Count"
+            }
+        },
+        "pawnsPlural" :
+        {
+            "Xpath" : "//pawnsPlural",
+            "NodeStringReplaceXpaths" : 
+            {
                 "[\\w]+Def" : "./defName"
             }
         },
@@ -30,7 +31,8 @@
             "Xpath" : "//li/customLabel",
             "NodeStringReplaceXpaths" :
             {
-                "[\\w]+Def" : "./defName"
+                "[\\w]+Def" : "./defName",
+                "li" : "$_Count"
             }
         },
         "Label" :
@@ -55,8 +57,7 @@
             "Xpath" : "//description",
             "NodeStringReplaceXpaths" :
             {
-                "[a-zA-Z0-9]+Def" : "./defName",
-                "li" : "$_Count"
+                "[a-zA-Z0-9]+Def" : "./defName"
             }
         },
         "titles" :
