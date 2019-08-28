@@ -25,12 +25,20 @@
         {
             "Xpath" : "//li/description",
             "AdditionalNodes" :
-            [
-                
-            ],
+            {
+
+            },
             "NodeStringReplaceXpaths" :
             {
                 "[\\w]+Def" : "./defName"
+            }
+        },
+        "customLabel" :
+        {
+            "Xpath" : "//li/customLabel",
+            "AdditionalNodes" :
+            {
+
             }
         },
         "Label" :
