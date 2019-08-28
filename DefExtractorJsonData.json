@@ -31,7 +31,7 @@
             "NodeStringReplaceXpaths" :
             {
                 "[\\w]+Def" : "./defName"
-            },
+            }
         },
         "Label" :
         {
@@ -40,6 +40,14 @@
             {
                 "[a-zA-Z0-9]+Def" : "./defName",
                 "li" : "$_Count"
+            }
+        },
+        "endMessage" :
+        {
+            "Xpath" : "//endMessage",
+            "NodeStringReplaceXpaths" :
+            {
+                "[a-zA-Z0-9]+Def" : "./defName"
             }
         },
         "Description" :
