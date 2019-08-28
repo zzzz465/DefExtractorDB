@@ -12,10 +12,6 @@
         "li_label" :
         {
             "Xpath" : "//li/label",
-            "AdditionalNodes" :
-            [
-
-            ],
             "NodeStringReplaceXpaths" :
             {
                 "[\\w]+Def" : "./defName"
@@ -24,10 +20,6 @@
         "li_description" :
         {
             "Xpath" : "//li/description",
-            "AdditionalNodes" :
-            {
-
-            },
             "NodeStringReplaceXpaths" :
             {
                 "[\\w]+Def" : "./defName"
@@ -36,10 +28,10 @@
         "customLabel" :
         {
             "Xpath" : "//li/customLabel",
-            "AdditionalNodes" :
+            "NodeStringReplaceXpaths" :
             {
-
-            }
+                "[\\w]+Def" : "./defName"
+            },
         },
         "Label" :
         {
@@ -62,17 +54,26 @@
         "titles" :
         {
             "Xpath" : "//titles",
-            "NodeStringReplaceXpaths" :{}
+            "NodeStringReplaceXpaths" :
+            {
+                "[\\w]+Def" : "./defName"
+            }
         },
         "domains" :
         {
             "Xpath" : "//domains",
-            "NodeStringReplaceXpaths" :{}
+            "NodeStringReplaceXpaths" :
+            {
+                "[\\w]+Def" : "./defName"
+            }
         },
         "descriptionLong" :
         {
             "Xpath" : "//descriptionLong",
-            "NodeStringReplaceXpaths" :{}
+            "NodeStringReplaceXpaths" :
+            {
+                "[\\w]+Def" : "./defName"
+            }
         },
         "마지막노드이름" :
         {
