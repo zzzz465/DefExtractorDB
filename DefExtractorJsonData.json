@@ -53,15 +53,18 @@
         },
         "titles" :
         {
-            "Xpath" : "//titles"
+            "Xpath" : "//titles",
+            "NodeStringReplaceXpaths" :{}
         },
         "domains" :
         {
-            "Xpath" : "//domains"
+            "Xpath" : "//domains",
+            "NodeStringReplaceXpaths" :{}
         },
         "descriptionLong" :
         {
-            "Xpath" : "//descriptionLong"
+            "Xpath" : "//descriptionLong",
+            "NodeStringReplaceXpaths" :{}
         },
         "마지막노드이름" :
         {
