@@ -85,6 +85,95 @@
                 "[\\w]+Def" : "./defName"
             }
         },
+        "deathMessage" :
+        {
+            "Xpath" : "//headerTip",
+            "NodeReplaceRegex" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "letterText" :
+        {
+            "Xpath" : "//letterText",
+            "NodeReplaceRegex" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "ResearchDesc" :
+        {
+            "Xpath" : "//ResearchDesc",
+            "NodeReplaceRegex" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "ResearchDescDisc" :
+        {
+            "Xpath" : "//ResearchDescDisc",
+            "NodeReplaceRegex" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "ingestCommandString" :
+        {
+            "Xpath" : "//ingestCommandString",
+            "NodeReplaceRegex" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "ProjTypeLabel" :
+        {
+            "Xpath" : "//ProjTypeLabel",
+            "NodeReplaceRegex" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "ingestReportString" :
+        {
+            "Xpath" : "//ingestReportString",
+            "NodeReplaceRegex" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "verb" :
+        {
+            "Xpath" : "//verb",
+            "NodeReplaceRegex" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "gerund" :
+        {
+            "Xpath" : "//gerund",
+            "NodeReplaceRegex" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+
+        "jobString" :
+        {
+            "Xpath" : "//jobString",
+            "NodeReplaceRegex" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
+        "letterLabel" :
+        {
+            "Xpath" : "//letterLabel",
+            "NodeReplaceRegex" : 
+            {
+                "[\\w]+Def" : "./defName"
+            }
+        },
         "headerTip" : 
         {
             "Xpath" : "//headerTip",
