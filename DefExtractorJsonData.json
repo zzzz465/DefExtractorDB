@@ -7,7 +7,7 @@
             "NodeReplaceRegex" :
             {
                 "[\\w]+Def" : "./defName",
-                "li" : "$_Count"
+                "li" : "#Count"
             }
         },
         "li_description" :
@@ -16,7 +16,7 @@
             "NodeReplaceRegex" :
             {
                 "[\\w]+Def" : "./defName",
-                "li" : "$_Count"
+                "li" : "#Count"
             }
         },
         "li_customLabel" :
@@ -25,7 +25,7 @@
             "NodeReplaceRegex" :
             {
                 "[\\w]+Def" : "./defName",
-                "li" : "$_Count"
+                "li" : "#Count"
             }
         },
         "pawnsPlural" :
@@ -99,7 +99,7 @@
             "NodeReplaceRegex" :
             {
                 "[a-zA-Z0-9]+Def" : "./defName",
-                "li" : "$_Count"
+                "li" : "#Count"
             }
         },
         "customLabel" :
