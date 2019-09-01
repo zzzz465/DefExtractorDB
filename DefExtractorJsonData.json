@@ -187,7 +187,7 @@
             "Xpath" : "//label",
             "NodeReplaceRegex" :
             {
-                "[a-zA-Z0-9]+Def" : "./defName",
+                "[\\w]*Def$" : "./defName",
                 "li" : "#Count"
             }
         },
@@ -204,7 +204,7 @@
             "Xpath" : "//endMessage",
             "NodeReplaceRegex" :
             {
-                "[a-zA-Z0-9]+Def" : "./defName"
+                "[\\w]*Def$" : "./defName"
             }
         },
         "Description" :
@@ -212,7 +212,7 @@
             "Xpath" : "//description",
             "NodeReplaceRegex" :
             {
-                "[a-zA-Z0-9]+Def" : "./defName"
+                "[\\w]*Def$" : "./defName"
             }
         },
         "titles" :
