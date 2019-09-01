@@ -1,10 +1,10 @@
 {
-    "targetNodes" :
+    "Configs" :
     {
         "li_label" :
         {
             "Xpath" : "//li/label",
-            "NodeStringReplaceXpaths" :
+            "NodeReplaceRegex" :
             {
                 "[\\w]+Def" : "./defName",
                 "li" : "$_Count"
@@ -13,7 +13,7 @@
         "li_description" :
         {
             "Xpath" : "//li/description",
-            "NodeStringReplaceXpaths" :
+            "NodeReplaceRegex" :
             {
                 "[\\w]+Def" : "./defName",
                 "li" : "$_Count"
@@ -22,7 +22,7 @@
         "li_customLabel" :
         {
             "Xpath" : "//li/customLabel",
-            "NodeStringReplaceXpaths" :
+            "NodeReplaceRegex" :
             {
                 "[\\w]+Def" : "./defName",
                 "li" : "$_Count"
@@ -31,7 +31,7 @@
         "pawnsPlural" :
         {
             "Xpath" : "//pawnsPlural",
-            "NodeStringReplaceXpaths" : 
+            "NodeReplaceRegex" : 
             {
                 "[\\w]+Def" : "./defName"
             }
@@ -39,7 +39,7 @@
         "JobString" : 
         {
             "Xpath" : "//jobString",
-            "NodeStringReplaceXpaths" : 
+            "NodeReplaceRegex" : 
             {
                 "[\\w]+Def" : "./defName"
             }
@@ -47,7 +47,7 @@
         "inactiveAdjective" :
         {
             "Xpath" : "//inactiveAdjective",
-            "NodeStringReplaceXpaths" : 
+            "NodeReplaceRegex" : 
             {
                 "[\\w]+Def" : "./defName"
             }
@@ -55,7 +55,7 @@
         "inclusiveAdjective" :
         {
             "Xpath" : "//inclusiveAdjective",
-            "NodeStringReplaceXpaths" : 
+            "NodeReplaceRegex" : 
             {
                 "[\\w]+Def" : "./defName"
             }
@@ -63,7 +63,7 @@
         "exclusiveAdjective" :
         {
             "Xpath" : "//exclusiveAdjective",
-            "NodeStringReplaceXpaths" : 
+            "NodeReplaceRegex" : 
             {
                 "[\\w]+Def" : "./defName"
             }
@@ -71,7 +71,7 @@
         "helpText" : 
         {
             "Xpath" : "//helpText",
-            "NodeStringReplaceXpaths" : 
+            "NodeReplaceRegex" : 
             {
                 "[\\w]+Def" : "./defName"
             }
@@ -80,7 +80,7 @@
         "reportString" : 
         {
             "Xpath" : "//reportString",
-            "NodeStringReplaceXpaths" : 
+            "NodeReplaceRegex" : 
             {
                 "[\\w]+Def" : "./defName"
             }
@@ -88,7 +88,7 @@
         "headerTip" : 
         {
             "Xpath" : "//headerTip",
-            "NodeStringReplaceXpaths" : 
+            "NodeReplaceRegex" : 
             {
                 "[\\w]+Def" : "./defName"
             }
@@ -96,7 +96,7 @@
         "Label" :
         {
             "Xpath" : "//label",
-            "NodeStringReplaceXpaths" :
+            "NodeReplaceRegex" :
             {
                 "[a-zA-Z0-9]+Def" : "./defName",
                 "li" : "$_Count"
@@ -105,7 +105,7 @@
         "customLabel" :
         {
             "Xpath" : "//customLabel",
-            "NodeStringReplaceXpaths" : 
+            "NodeReplaceRegex" : 
             {
                 "[\\w]+Def" : "./defName"
             }
@@ -113,7 +113,7 @@
         "endMessage" :
         {
             "Xpath" : "//endMessage",
-            "NodeStringReplaceXpaths" :
+            "NodeReplaceRegex" :
             {
                 "[a-zA-Z0-9]+Def" : "./defName"
             }
@@ -121,7 +121,7 @@
         "Description" :
         {
             "Xpath" : "//description",
-            "NodeStringReplaceXpaths" :
+            "NodeReplaceRegex" :
             {
                 "[a-zA-Z0-9]+Def" : "./defName"
             }
@@ -129,7 +129,7 @@
         "titles" :
         {
             "Xpath" : "//titles",
-            "NodeStringReplaceXpaths" :
+            "NodeReplaceRegex" :
             {
                 "[\\w]+Def" : "./defName"
             }
@@ -137,7 +137,7 @@
         "domains" :
         {
             "Xpath" : "//domains",
-            "NodeStringReplaceXpaths" :
+            "NodeReplaceRegex" :
             {
                 "[\\w]+Def" : "./defName"
             }
@@ -145,7 +145,7 @@
         "descriptionLong" :
         {
             "Xpath" : "//descriptionLong",
-            "NodeStringReplaceXpaths" :
+            "NodeReplaceRegex" :
             {
                 "[\\w]+Def" : "./defName"
             }
@@ -157,7 +157,7 @@
             [
                 "마지막 노드 뒤에 추가적으로 노드를 붙이고 싶을 때"
             ],
-            "NodeStringReplaceXpaths" :
+            "NodeReplaceRegex" :
             {
                 "[\\w]+Def" : "./defName",
                 "매칭 정규식을 여기에" : "정규식에 해당하는 노드에서부터 선택할 Xpath을 설정"
