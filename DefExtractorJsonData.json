@@ -6,7 +6,7 @@
             "Xpath" : "//li/label",
             "NodeReplaceRegex" :
             {
-                "[\\w]*Def$" : "./defName",
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName",
                 "li" : "#Count"
             }
         },
@@ -15,7 +15,7 @@
             "Xpath" : "//li/description",
             "NodeReplaceRegex" :
             {
-                "[\\w]*Def$" : "./defName",
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName",
                 "li" : "#Count"
             }
         },
@@ -24,7 +24,7 @@
             "Xpath" : "//li/customLabel",
             "NodeReplaceRegex" :
             {
-                "[\\w]*Def$" : "./defName",
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName",
                 "li" : "#Count"
             }
         },
@@ -33,7 +33,7 @@
             "Xpath" : "//pawnsPlural",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "JobString" : 
@@ -41,7 +41,7 @@
             "Xpath" : "//jobString",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "inactiveAdjective" :
@@ -49,7 +49,7 @@
             "Xpath" : "//inactiveAdjective",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "inclusiveAdjective" :
@@ -57,7 +57,7 @@
             "Xpath" : "//inclusiveAdjective",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "exclusiveAdjective" :
@@ -65,7 +65,7 @@
             "Xpath" : "//exclusiveAdjective",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "helpText" : 
@@ -73,7 +73,7 @@
             "Xpath" : "//helpText",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
 
@@ -82,7 +82,7 @@
             "Xpath" : "//reportString",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "deathMessage" :
@@ -90,7 +90,7 @@
             "Xpath" : "//headerTip",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "letterText" :
@@ -98,7 +98,7 @@
             "Xpath" : "//letterText",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "ResearchDesc" :
@@ -106,7 +106,7 @@
             "Xpath" : "//ResearchDesc",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "ResearchDescDisc" :
@@ -114,7 +114,7 @@
             "Xpath" : "//ResearchDescDisc",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "ingestCommandString" :
@@ -122,7 +122,7 @@
             "Xpath" : "//ingestCommandString",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "ProjTypeLabel" :
@@ -130,7 +130,7 @@
             "Xpath" : "//ProjTypeLabel",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "ingestReportString" :
@@ -138,7 +138,7 @@
             "Xpath" : "//ingestReportString",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "verb" :
@@ -146,7 +146,7 @@
             "Xpath" : "//verb",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "gerund" :
@@ -154,7 +154,7 @@
             "Xpath" : "//gerund",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
 
@@ -163,7 +163,7 @@
             "Xpath" : "//jobString",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "letterLabel" :
@@ -171,7 +171,7 @@
             "Xpath" : "//letterLabel",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "headerTip" : 
@@ -179,7 +179,7 @@
             "Xpath" : "//headerTip",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "Label" :
@@ -187,7 +187,7 @@
             "Xpath" : "//label",
             "NodeReplaceRegex" :
             {
-                "[\\w]*Def$" : "./defName",
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName",
                 "li" : "#Count"
             }
         },
@@ -196,7 +196,7 @@
             "Xpath" : "//customLabel",
             "NodeReplaceRegex" : 
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "endMessage" :
@@ -204,7 +204,7 @@
             "Xpath" : "//endMessage",
             "NodeReplaceRegex" :
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "Description" :
@@ -212,7 +212,7 @@
             "Xpath" : "//description",
             "NodeReplaceRegex" :
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "titles" :
@@ -220,7 +220,7 @@
             "Xpath" : "//titles",
             "NodeReplaceRegex" :
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "domains" :
@@ -228,7 +228,7 @@
             "Xpath" : "//domains",
             "NodeReplaceRegex" :
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "descriptionLong" :
@@ -236,7 +236,7 @@
             "Xpath" : "//descriptionLong",
             "NodeReplaceRegex" :
             {
-                "[\\w]*Def$" : "./defName"
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName"
             }
         },
         "마지막노드이름" :
@@ -248,7 +248,7 @@
             ],
             "NodeReplaceRegex" :
             {
-                "[\\w]*Def$" : "./defName",
+                "[\\w]+Def$|[\\W]+Def$|[\\w]+Def[\\w]+|Def$" : "./defName",
                 "매칭 정규식을 여기에" : "정규식에 해당하는 노드에서부터 선택할 Xpath을 설정"
             }
         }
