@@ -1,189 +1,8 @@
 {
     "Configs" :
     {
-        "li_label" :
-        {
-            "Xpath" : "//li/label",
-            "NodeReplaceData" :
-            {
-                "%./defName" : "./defName",
-                "li" : "#Count"
-            }
-        },
-        "li_description" :
-        {
-            "Xpath" : "//li/description",
-            "NodeReplaceData" :
-            {
-                "%./defName" : "./defName",
-                "li" : "#Count"
-            }
-        },
-        "li_customLabel" :
-        {
-            "Xpath" : "//li/customLabel",
-            "NodeReplaceData" :
-            {
-                "%./defName" : "./defName",
-                "li" : "#Count"
-            }
-        },
-        "pawnsPlural" :
-        {
-            "Xpath" : "//pawnsPlural",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "JobString" : 
-        {
-            "Xpath" : "//jobString",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "inactiveAdjective" :
-        {
-            "Xpath" : "//inactiveAdjective",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "inclusiveAdjective" :
-        {
-            "Xpath" : "//inclusiveAdjective",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "exclusiveAdjective" :
-        {
-            "Xpath" : "//exclusiveAdjective",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "helpText" : 
-        {
-            "Xpath" : "//helpText",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-
-        "reportString" : 
-        {
-            "Xpath" : "//reportString",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "deathMessage" :
-        {
-            "Xpath" : "//headerTip",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "letterText" :
-        {
-            "Xpath" : "//letterText",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "ResearchDesc" :
-        {
-            "Xpath" : "//ResearchDesc",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "ResearchDescDisc" :
-        {
-            "Xpath" : "//ResearchDescDisc",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "ingestCommandString" :
-        {
-            "Xpath" : "//ingestCommandString",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "ProjTypeLabel" :
-        {
-            "Xpath" : "//ProjTypeLabel",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "ingestReportString" :
-        {
-            "Xpath" : "//ingestReportString",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "verb" :
-        {
-            "Xpath" : "//verb",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "gerund" :
-        {
-            "Xpath" : "//gerund",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-
-        "jobString" :
-        {
-            "Xpath" : "//jobString",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "letterLabel" :
-        {
-            "Xpath" : "//letterLabel",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "headerTip" : 
-        {
-            "Xpath" : "//headerTip",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "Label" :
-        {
+        "label" : 
+         {
             "Xpath" : "//label",
             "NodeReplaceData" :
             {
@@ -191,67 +10,765 @@
                 "li" : "#Count"
             }
         },
-        "customLabel" :
-        {
-            "Xpath" : "//customLabel",
-            "NodeReplaceData" : 
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "endMessage" :
-        {
-            "Xpath" : "//endMessage",
-            "NodeReplaceData" :
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "Description" :
-        {
+
+        "description" : 
+         {
             "Xpath" : "//description",
             "NodeReplaceData" :
             {
-                "%./defName" : "./defName"
+                "%./defName" : "./defName",
+                "li" : "#Count"
             }
         },
-        "titles" :
-        {
-            "Xpath" : "//titles",
-            "NodeReplaceData" :
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "domains" :
-        {
-            "Xpath" : "//domains",
-            "NodeReplaceData" :
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "descriptionLong" :
-        {
-            "Xpath" : "//descriptionLong",
-            "NodeReplaceData" :
-            {
-                "%./defName" : "./defName"
-            }
-        },
-        "마지막노드이름" :
-        {
-            "Xpath" : "//마지막노드이름",
-            "AdditionalNodes" :
-            [
-                "마지막 노드 뒤에 추가적으로 노드를 붙이고 싶을 때"
-            ],
+
+        "customLabel" : 
+         {
+            "Xpath" : "//customLabel",
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
-                "매칭 정규식을 여기에" : "정규식에 해당하는 노드에서부터 선택할 Xpath을 설정"
+                "li" : "#Count"
+            }
+        },
+
+        "labelShort" : 
+         {
+            "Xpath" : "//labelShort",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "helpText" : 
+         {
+            "Xpath" : "//helpText",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "deathMessage" : 
+         {
+            "Xpath" : "//deathMessage",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "fixedName" : 
+         {
+            "Xpath" : "//fixedName",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "pawnSingular" : 
+         {
+            "Xpath" : "//pawnSingular",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "pawnsPlural" : 
+         {
+            "Xpath" : "//pawnsPlural",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "leaderTitle" : 
+         {
+            "Xpath" : "//leaderTitle",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "endMessage" : 
+         {
+            "Xpath" : "//endMessage",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "labelNoun" : 
+         {
+            "Xpath" : "//labelNoun",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "discoverLetterLabel" : 
+         {
+            "Xpath" : "//discoverLetterLabel",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "discoverLetterText" : 
+         {
+            "Xpath" : "//discoverLetterText",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "labelSolidTendedWell" : 
+         {
+            "Xpath" : "//labelSolidTendedWell",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "labelTendedWell" : 
+         {
+            "Xpath" : "//labelTendedWell",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "labelTendedWellInner" : 
+         {
+            "Xpath" : "//labelTendedWellInner",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "permanentLabel" : 
+         {
+            "Xpath" : "//permanentLabel",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "destroyedLabel" : 
+         {
+            "Xpath" : "//destroyedLabel",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "destroyedOutLabel" : 
+         {
+            "Xpath" : "//destroyedOutLabel",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "labelNounPretty" : 
+         {
+            "Xpath" : "//labelNounPretty",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "instantlyPermanentLabel" : 
+         {
+            "Xpath" : "//instantlyPermanentLabel",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "letter" : 
+         {
+            "Xpath" : "//letter",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "letterLabel" : 
+         {
+            "Xpath" : "//letterLabel",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "graphLabelY" : 
+         {
+            "Xpath" : "//graphLabelY",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "letterText" : 
+         {
+            "Xpath" : "//letterText",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "baseInspectLine" : 
+         {
+            "Xpath" : "//baseInspectLine",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "beginLetter" : 
+         {
+            "Xpath" : "//beginLetter",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "text" : 
+         {
+            "Xpath" : "//text",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "onMapInstruction" : 
+         {
+            "Xpath" : "//onMapInstruction",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "rejectInputMessage" : 
+         {
+            "Xpath" : "//rejectInputMessage",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "li" : 
+         {
+            "Xpath" : "//li",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "reportString" : 
+         {
+            "Xpath" : "//reportString",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "adjective" : 
+         {
+            "Xpath" : "//adjective",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "beginLetterLabel" : 
+         {
+            "Xpath" : "//beginLetterLabel",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "recoveryMessage" : 
+         {
+            "Xpath" : "//recoveryMessage",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "labelMechanoids" : 
+         {
+            "Xpath" : "//labelMechanoids",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "headerTip" : 
+         {
+            "Xpath" : "//headerTip",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "labelPlural" : 
+         {
+            "Xpath" : "//labelPlural",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "labelFemale" : 
+         {
+            "Xpath" : "//labelFemale",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "labelFemalePlural" : 
+         {
+            "Xpath" : "//labelFemalePlural",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "labelMale" : 
+         {
+            "Xpath" : "//labelMale",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "labelMalePlural" : 
+         {
+            "Xpath" : "//labelMalePlural",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "textEnemy" : 
+         {
+            "Xpath" : "//textEnemy",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "textFriendly" : 
+         {
+            "Xpath" : "//textFriendly",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "arrivalTextEnemy" : 
+         {
+            "Xpath" : "//arrivalTextEnemy",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "arrivalTextFriendly" : 
+         {
+            "Xpath" : "//arrivalTextFriendly",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "letterLabelEnemy" : 
+         {
+            "Xpath" : "//letterLabelEnemy",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "letterLabelFriendly" : 
+         {
+            "Xpath" : "//letterLabelFriendly",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "jobString" : 
+         {
+            "Xpath" : "//jobString",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "successfullyRemovedHediffMessage" : 
+         {
+            "Xpath" : "//successfullyRemovedHediffMessage",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "discoveredLetterText" : 
+         {
+            "Xpath" : "//discoveredLetterText",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "discoveredLetterTitle" : 
+         {
+            "Xpath" : "//discoveredLetterTitle",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "rulesStrings" : 
+         {
+            "Xpath" : "//rulesStrings",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "name" : 
+         {
+            "Xpath" : "//name",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "summary" : 
+         {
+            "Xpath" : "//summary",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "descriptionDialogue" : 
+         {
+            "Xpath" : "//descriptionDialogue",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "arrivedLetter" : 
+         {
+            "Xpath" : "//arrivedLetter",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "approachingReportString" : 
+         {
+            "Xpath" : "//approachingReportString",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "approachOrderString" : 
+         {
+            "Xpath" : "//approachOrderString",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "skillLabel" : 
+         {
+            "Xpath" : "//skillLabel",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "formatString" : 
+         {
+            "Xpath" : "//formatString",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "ingestCommandString" : 
+         {
+            "Xpath" : "//ingestCommandString",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "ingestReportString" : 
+         {
+            "Xpath" : "//ingestReportString",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "offMessage" : 
+         {
+            "Xpath" : "//offMessage",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "useLabel" : 
+         {
+            "Xpath" : "//useLabel",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "fuelGizmoLabel" : 
+         {
+            "Xpath" : "//fuelGizmoLabel",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "fuelLabel" : 
+         {
+            "Xpath" : "//fuelLabel",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "outOfFuelMessage" : 
+         {
+            "Xpath" : "//outOfFuelMessage",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "stuffAdjective" : 
+         {
+            "Xpath" : "//stuffAdjective",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "meatLabel" : 
+         {
+            "Xpath" : "//meatLabel",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "ingestReportStringEat" : 
+         {
+            "Xpath" : "//ingestReportStringEat",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "labelSocial" : 
+         {
+            "Xpath" : "//labelSocial",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "gerund" : 
+         {
+            "Xpath" : "//gerund",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "verb" : 
+         {
+            "Xpath" : "//verb",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "gerundLabel" : 
+         {
+            "Xpath" : "//gerundLabel",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "pawnLabel" : 
+         {
+            "Xpath" : "//pawnLabel",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
             }
         }
-        
     }
 }
