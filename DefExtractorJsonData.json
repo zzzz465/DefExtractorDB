@@ -311,16 +311,6 @@
             }
         },
 
-        "li" : 
-         {
-            "Xpath" : "//li",
-            "NodeReplaceData" :
-            {
-                "%./defName" : "./defName",
-                "li" : "#Count"
-            }
-        },
-
         "reportString" : 
          {
             "Xpath" : "//reportString",
