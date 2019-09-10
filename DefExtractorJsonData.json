@@ -731,16 +731,6 @@
             }
         },
 
-        "verb" : 
-         {
-            "Xpath" : "//verb",
-            "NodeReplaceData" :
-            {
-                "%./defName" : "./defName",
-                "li" : "#Count"
-            }
-        },
-
         "gerundLabel" : 
          {
             "Xpath" : "//gerundLabel",
