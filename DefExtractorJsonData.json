@@ -569,6 +569,35 @@
                 "li" : "#Count"
             }
         },
+        "backstory_title" :
+        {
+            "Xpath" : "//title",            
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "backstory_titleShort" : 
+        {
+            "Xpath" : "//titleShort",            
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "backstory_baseDescription" : 
+        {
+            "Xpath" : "//baseDescription",            
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
 
         "descriptionDialogue" : 
          {
