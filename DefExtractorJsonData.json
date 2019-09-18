@@ -10,6 +10,16 @@
                 "li" : "#Count"
             }
         },
+        
+        "PatchOP_label" :
+        {
+            "Xpath" : "//li[def]/customLabel",            
+            "IgnoreBeforeThisXpath" : "./def | ./defName",
+            "NodeReplaceData" :
+            {
+                "%./def" : "./def"  
+            }
+        },
 
         "label" : 
          {
@@ -23,7 +33,7 @@
 
         "description" : 
          {
-            "Xpath" : "//description",
+            "Xpath" : "//description",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -33,7 +43,7 @@
 
         "customLabel" : 
          {
-            "Xpath" : "//customLabel",
+            "Xpath" : "//customLabel",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -43,7 +53,7 @@
 
         "labelShort" : 
          {
-            "Xpath" : "//labelShort",
+            "Xpath" : "//labelShort",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -53,7 +63,7 @@
 
         "helpText" : 
          {
-            "Xpath" : "//helpText",
+            "Xpath" : "//helpText",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -63,7 +73,7 @@
 
         "deathMessage" : 
          {
-            "Xpath" : "//deathMessage",
+            "Xpath" : "//deathMessage",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -73,7 +83,7 @@
 
         "fixedName" : 
          {
-            "Xpath" : "//fixedName",
+            "Xpath" : "//fixedName",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -83,7 +93,7 @@
 
         "pawnSingular" : 
          {
-            "Xpath" : "//pawnSingular",
+            "Xpath" : "//pawnSingular",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -93,7 +103,7 @@
 
         "pawnsPlural" : 
          {
-            "Xpath" : "//pawnsPlural",
+            "Xpath" : "//pawnsPlural",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -103,7 +113,7 @@
 
         "leaderTitle" : 
          {
-            "Xpath" : "//leaderTitle",
+            "Xpath" : "//leaderTitle",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -113,7 +123,7 @@
 
         "endMessage" : 
          {
-            "Xpath" : "//endMessage",
+            "Xpath" : "//endMessage",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -123,7 +133,7 @@
 
         "labelNoun" : 
          {
-            "Xpath" : "//labelNoun",
+            "Xpath" : "//labelNoun",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -133,7 +143,7 @@
 
         "discoverLetterLabel" : 
          {
-            "Xpath" : "//discoverLetterLabel",
+            "Xpath" : "//discoverLetterLabel",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -143,7 +153,7 @@
 
         "discoverLetterText" : 
          {
-            "Xpath" : "//discoverLetterText",
+            "Xpath" : "//discoverLetterText",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -153,7 +163,7 @@
 
         "labelSolidTendedWell" : 
          {
-            "Xpath" : "//labelSolidTendedWell",
+            "Xpath" : "//labelSolidTendedWell",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -163,7 +173,7 @@
 
         "labelTendedWell" : 
          {
-            "Xpath" : "//labelTendedWell",
+            "Xpath" : "//labelTendedWell",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -173,7 +183,7 @@
 
         "labelTendedWellInner" : 
          {
-            "Xpath" : "//labelTendedWellInner",
+            "Xpath" : "//labelTendedWellInner",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -183,7 +193,7 @@
 
         "permanentLabel" : 
          {
-            "Xpath" : "//permanentLabel",
+            "Xpath" : "//permanentLabel",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -193,7 +203,7 @@
 
         "destroyedLabel" : 
          {
-            "Xpath" : "//destroyedLabel",
+            "Xpath" : "//destroyedLabel",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -203,7 +213,7 @@
 
         "destroyedOutLabel" : 
          {
-            "Xpath" : "//destroyedOutLabel",
+            "Xpath" : "//destroyedOutLabel",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -213,7 +223,7 @@
 
         "labelNounPretty" : 
          {
-            "Xpath" : "//labelNounPretty",
+            "Xpath" : "//labelNounPretty",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -223,7 +233,7 @@
 
         "instantlyPermanentLabel" : 
          {
-            "Xpath" : "//instantlyPermanentLabel",
+            "Xpath" : "//instantlyPermanentLabel",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -233,7 +243,7 @@
 
         "letter" : 
          {
-            "Xpath" : "//letter",
+            "Xpath" : "//letter",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -243,7 +253,7 @@
 
         "letterLabel" : 
          {
-            "Xpath" : "//letterLabel",
+            "Xpath" : "//letterLabel",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -253,7 +263,7 @@
 
         "graphLabelY" : 
          {
-            "Xpath" : "//graphLabelY",
+            "Xpath" : "//graphLabelY",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -263,7 +273,7 @@
 
         "letterText" : 
          {
-            "Xpath" : "//letterText",
+            "Xpath" : "//letterText",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -273,7 +283,7 @@
 
         "baseInspectLine" : 
          {
-            "Xpath" : "//baseInspectLine",
+            "Xpath" : "//baseInspectLine",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -283,7 +293,7 @@
 
         "beginLetter" : 
          {
-            "Xpath" : "//beginLetter",
+            "Xpath" : "//beginLetter",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -293,7 +303,7 @@
 
         "text" : 
          {
-            "Xpath" : "//text",
+            "Xpath" : "//text",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -303,7 +313,7 @@
 
         "onMapInstruction" : 
          {
-            "Xpath" : "//onMapInstruction",
+            "Xpath" : "//onMapInstruction",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -313,17 +323,7 @@
 
         "rejectInputMessage" : 
          {
-            "Xpath" : "//rejectInputMessage",
-            "NodeReplaceData" :
-            {
-                "%./defName" : "./defName",
-                "li" : "#Count"
-            }
-        },
-
-        "li" : 
-         {
-            "Xpath" : "//li",
+            "Xpath" : "//rejectInputMessage",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -333,7 +333,7 @@
 
         "reportString" : 
          {
-            "Xpath" : "//reportString",
+            "Xpath" : "//reportString",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -343,7 +343,7 @@
 
         "adjective" : 
          {
-            "Xpath" : "//adjective",
+            "Xpath" : "//adjective",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -353,7 +353,7 @@
 
         "beginLetterLabel" : 
          {
-            "Xpath" : "//beginLetterLabel",
+            "Xpath" : "//beginLetterLabel",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -363,7 +363,7 @@
 
         "recoveryMessage" : 
          {
-            "Xpath" : "//recoveryMessage",
+            "Xpath" : "//recoveryMessage",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -373,7 +373,7 @@
 
         "labelMechanoids" : 
          {
-            "Xpath" : "//labelMechanoids",
+            "Xpath" : "//labelMechanoids",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -383,7 +383,7 @@
 
         "headerTip" : 
          {
-            "Xpath" : "//headerTip",
+            "Xpath" : "//headerTip",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -393,7 +393,7 @@
 
         "labelPlural" : 
          {
-            "Xpath" : "//labelPlural",
+            "Xpath" : "//labelPlural",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -403,7 +403,7 @@
 
         "labelFemale" : 
          {
-            "Xpath" : "//labelFemale",
+            "Xpath" : "//labelFemale",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -413,7 +413,7 @@
 
         "labelFemalePlural" : 
          {
-            "Xpath" : "//labelFemalePlural",
+            "Xpath" : "//labelFemalePlural",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -423,7 +423,7 @@
 
         "labelMale" : 
          {
-            "Xpath" : "//labelMale",
+            "Xpath" : "//labelMale",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -433,7 +433,7 @@
 
         "labelMalePlural" : 
          {
-            "Xpath" : "//labelMalePlural",
+            "Xpath" : "//labelMalePlural",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -443,7 +443,7 @@
 
         "textEnemy" : 
          {
-            "Xpath" : "//textEnemy",
+            "Xpath" : "//textEnemy",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -453,7 +453,7 @@
 
         "textFriendly" : 
          {
-            "Xpath" : "//textFriendly",
+            "Xpath" : "//textFriendly",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -463,7 +463,7 @@
 
         "arrivalTextEnemy" : 
          {
-            "Xpath" : "//arrivalTextEnemy",
+            "Xpath" : "//arrivalTextEnemy",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -473,7 +473,7 @@
 
         "arrivalTextFriendly" : 
          {
-            "Xpath" : "//arrivalTextFriendly",
+            "Xpath" : "//arrivalTextFriendly",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -483,7 +483,7 @@
 
         "letterLabelEnemy" : 
          {
-            "Xpath" : "//letterLabelEnemy",
+            "Xpath" : "//letterLabelEnemy",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -493,7 +493,7 @@
 
         "letterLabelFriendly" : 
          {
-            "Xpath" : "//letterLabelFriendly",
+            "Xpath" : "//letterLabelFriendly",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -503,7 +503,7 @@
 
         "jobString" : 
          {
-            "Xpath" : "//jobString",
+            "Xpath" : "//jobString",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -513,7 +513,7 @@
 
         "successfullyRemovedHediffMessage" : 
          {
-            "Xpath" : "//successfullyRemovedHediffMessage",
+            "Xpath" : "//successfullyRemovedHediffMessage",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -523,7 +523,7 @@
 
         "discoveredLetterText" : 
          {
-            "Xpath" : "//discoveredLetterText",
+            "Xpath" : "//discoveredLetterText",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -533,7 +533,7 @@
 
         "discoveredLetterTitle" : 
          {
-            "Xpath" : "//discoveredLetterTitle",
+            "Xpath" : "//discoveredLetterTitle",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -543,7 +543,16 @@
 
         "rulesStrings" : 
          {
-            "Xpath" : "//rulesStrings",
+            "Xpath" : "//rulesStrings",            
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+        "VerbsWithDefName" :
+        {
+            "Xpath" : "//verb[../defName]",
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -553,7 +562,7 @@
 
         "name" : 
          {
-            "Xpath" : "//name",
+            "Xpath" : "//name",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -563,7 +572,36 @@
 
         "summary" : 
          {
-            "Xpath" : "//summary",
+            "Xpath" : "//summary",            
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+        "backstory_title" :
+        {
+            "Xpath" : "//title",            
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "backstory_titleShort" : 
+        {
+            "Xpath" : "//titleShort",            
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
+        "backstory_baseDescription" : 
+        {
+            "Xpath" : "//baseDescription",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -573,7 +611,7 @@
 
         "descriptionDialogue" : 
          {
-            "Xpath" : "//descriptionDialogue",
+            "Xpath" : "//descriptionDialogue",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -583,7 +621,7 @@
 
         "arrivedLetter" : 
          {
-            "Xpath" : "//arrivedLetter",
+            "Xpath" : "//arrivedLetter",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -593,7 +631,7 @@
 
         "approachingReportString" : 
          {
-            "Xpath" : "//approachingReportString",
+            "Xpath" : "//approachingReportString",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -603,7 +641,7 @@
 
         "approachOrderString" : 
          {
-            "Xpath" : "//approachOrderString",
+            "Xpath" : "//approachOrderString",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -613,7 +651,7 @@
 
         "skillLabel" : 
          {
-            "Xpath" : "//skillLabel",
+            "Xpath" : "//skillLabel",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -623,7 +661,7 @@
 
         "formatString" : 
          {
-            "Xpath" : "//formatString",
+            "Xpath" : "//formatString",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -633,7 +671,7 @@
 
         "ingestCommandString" : 
          {
-            "Xpath" : "//ingestCommandString",
+            "Xpath" : "//ingestCommandString",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -643,7 +681,7 @@
 
         "ingestReportString" : 
          {
-            "Xpath" : "//ingestReportString",
+            "Xpath" : "//ingestReportString",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -653,7 +691,7 @@
 
         "offMessage" : 
          {
-            "Xpath" : "//offMessage",
+            "Xpath" : "//offMessage",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -663,7 +701,7 @@
 
         "useLabel" : 
          {
-            "Xpath" : "//useLabel",
+            "Xpath" : "//useLabel",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -673,7 +711,7 @@
 
         "fuelGizmoLabel" : 
          {
-            "Xpath" : "//fuelGizmoLabel",
+            "Xpath" : "//fuelGizmoLabel",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -683,7 +721,7 @@
 
         "fuelLabel" : 
          {
-            "Xpath" : "//fuelLabel",
+            "Xpath" : "//fuelLabel",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -693,7 +731,7 @@
 
         "outOfFuelMessage" : 
          {
-            "Xpath" : "//outOfFuelMessage",
+            "Xpath" : "//outOfFuelMessage",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -703,7 +741,7 @@
 
         "stuffAdjective" : 
          {
-            "Xpath" : "//stuffAdjective",
+            "Xpath" : "//stuffAdjective",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -713,7 +751,7 @@
 
         "meatLabel" : 
          {
-            "Xpath" : "//meatLabel",
+            "Xpath" : "//meatLabel",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -723,7 +761,7 @@
 
         "ingestReportStringEat" : 
          {
-            "Xpath" : "//ingestReportStringEat",
+            "Xpath" : "//ingestReportStringEat",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -733,7 +771,7 @@
 
         "labelSocial" : 
          {
-            "Xpath" : "//labelSocial",
+            "Xpath" : "//labelSocial",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -743,17 +781,7 @@
 
         "gerund" : 
          {
-            "Xpath" : "//gerund",
-            "NodeReplaceData" :
-            {
-                "%./defName" : "./defName",
-                "li" : "#Count"
-            }
-        },
-
-        "verb" : 
-         {
-            "Xpath" : "//verb",
+            "Xpath" : "//gerund",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -763,7 +791,7 @@
 
         "gerundLabel" : 
          {
-            "Xpath" : "//gerundLabel",
+            "Xpath" : "//gerundLabel",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
@@ -773,7 +801,7 @@
 
         "pawnLabel" : 
          {
-            "Xpath" : "//pawnLabel",
+            "Xpath" : "//pawnLabel",            
             "NodeReplaceData" :
             {
                 "%./defName" : "./defName",
