@@ -1,6 +1,16 @@
 {
     "Configs" :
     {
+        "Patch_li_rulesStrings" :
+        {
+            "Xpath" : "//Operation[contains(./xpath/text(), \"rulesStrings\")]/value/li",
+            "NodeReplaceData" :
+            {
+                "%./defName" : "./defName",
+                "li" : "#Count"
+            }
+        },
+
         "label" : 
          {
             "Xpath" : "//label",
