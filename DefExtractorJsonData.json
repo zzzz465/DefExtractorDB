@@ -526,6 +526,16 @@
                 "li" : "#Count"
             }
         },
+        "rulesStrings_li" :
+        {
+            "Xpath" : "//rulesStrings/li",
+            "NodeReplaceData" : 
+            {
+                "%./defName" : "./defName",
+                "%./def" : "./def",
+                "li" : "#Count"
+            }
+        },
 
         "letterLabelEnemy" : 
          {
