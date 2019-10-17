@@ -603,16 +603,7 @@
             }
         },
 
-        "rulesStrings" : 
-         {
-            "Xpath" : "//rulesStrings",            
-            "NodeReplaceData" :
-            {
-                "%./defName" : "./defName",
-                "%./def" : "./def",
-                "li" : "#Count"
-            }
-        },
+
         "VerbsWithDefName" :
         {
             "Xpath" : "//verb[../defName]",
